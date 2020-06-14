@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+  <title>土豆漫画</title>
+  <style type="text/css">
+  .zong{
+    width: 1920px;
+    height: 1300px;
+    background: rgb(58,58,58,0.1);
+  }
+  .pdd{
+    
+      margin-left: 60px;
+      margin-top: 33px;
+      margin-bottom: 29px;
+      width:170px;
+      height:39px;
+      font-size:40px;
+      font-family:Microsoft YaHei;
+      font-weight:bold;
+      color:#ff9a6a;
+    float: left;
+    }
+    .first{
+      border-right: 4px solid #666;
+    }
+    .one{
+      margin: 0 auto;
+      width: 1200px;
+      margin-top: 10px;
+      margin-left:90px;
+      height:100px;
+      font-size:18px;
+      font-weight:400;
+      float: left;
+      text-decoration:none;
+   
+
+    }
+    .top{
+      list-style: none;
+      margin-top: 38px;
+      float: left;
+    }
+    .top li{
+      text-align: center;
+      width: 122px;
+      float: left;
+      font-size: 24px;
+      font-weight: bold;
+      
+    }
+    .top a{text-decoration: none;
+      color: #666;
+      font-style: none;
+    }
+    a:hover{
+      border-bottom: 2px solid rgba(0,164,255,1);}
+    
+    .form{
+      top: 40px;
+      right: 10%;
+      border: red solid;
+    
+     position: absolute;
+    }
+    form:hover{
+      }
+
+    .banner{
+      margin: 0 auto;
+        top:101px;
+        width: 1920px;
+        height: 420px;
+        background-color: rgba(307,200,107,0.9);
+        position: relative;
+    }
+    .back{
+     width:1200px;
+        height:420px;
+        position: absolute;
+        top: 0px;
+        left: 195px;
+        }
+    .wenzi{
+     list-style: none;
+     top: 110px;
+     width:190px;
+     height:420px;
+     background:rgba(0,0,0,0.5);
+     position: absolute;}
+    .wenzi ul{
+      list-style: none;
+    }
+    .wenzi a{
+    
+      text-decoration: none;
+    }
+    .wenzi:hover{
+      color:rgba(0,164,255,1);}
+      .two{
+        top: 540px;
+        left: 10%;
+        font-size: 40px;
+        position: absolute;
+      }
+      .three{
+        top: 600px;
+        left: 10%;
+        height: 220px;
+        position: absolute;
+        width: 1200px;
+      }
+      .c4{
+        margin-left:60px;
+    margin-top:7.5px ;
+    width:228px;
+    height:200px;
+    background:rgba(255,255,255,1);
+    border: 1px  rgba(118,118,118,0.2) solid;
+    float: left;
+      }
+      .four{
+        top: 600px;
+        background: white;
+        position: absolute;
+      }
+      .six{
+         top: 600px;
+         right: 2%;
+        background: white;
+        position: absolute;
+      }
+      .end{
+        top: 1100px;
+        width: 1920px;
+        height: 200px;
+        background: black;
+        position: absolute;
+      
+      }
+      .end1{
+        margin-left: 590px;
+        color: white;
+        margin-top: 40px;
+      }
+    </style>
+
+  </head>
+  <body>
+  <div class="zong">
+  <div class="one clear">  
+  <div class="pdd">土豆漫画</div>       
+              <ul class="top " >
+                <li class="first">
+                    <a class="mod-top-nav-home" href="  " title="首页" >首页</a>
+                </li>
+                <li class="first">
+                    <a href=" # " title="日漫"  >日漫
+                    </a>
+                </li>
+                <li class="first">
+                    <a href="  #" title="轻小说"  >轻小说
+                    </a>
+                </li>
+                <li class="first">
+                    <a href=" # " target="comic" title="资讯" >资讯
+                    </a>
+                </li>
+                <li class="last">
+                    <a href="  #" title="动画" >动画
+                    </a>
+                </li>
+                </ul>
+    </div>
+    <div class="sousuo">
+      <form class="form">
+        <input type="text" placeholder="请输入作品" class="place" />
+        <input type="button" class="submit" value=" " />
+      </form>
+    </div>
+    <div class="banner">
+      <img src="e:/workspace/背景.png" class="back">
+    </div>
+    <div class="wenzi clear">
+     <ul >
+          <li style="color:#ff9a6a;padding-left: 0;font-family:Microsoft YaHei;font-weight:bold;font-size:200px；">热门排行</li>
+          <li><a href="#" style="color:white;padding-left: 10px;">1 一人之下     </a></li>
+          <li></li>
+          <li><a href="#" style="color:white;padding-left: 10px;">2 尸兄     </a></li>
+          <li></li>
+          <li><a href="#" style="color:white;padding-left: 10px;">3 狐妖小红娘      </a></li>
+          <li></li>
+          <li><a href="#" style="color:white;padding-left: 10px;">4 南朝旧事      </a></li>
+          <li></li>
+          <li><a href="#" style="color:white;padding-left: 10px;">5 校园高手  </a></li>
+          <li></li>
+          <li><a href="#" style="color:white;padding-left: 10px;">荐 斗破苍穹   </a></li>
+          <li></li>
+          <li><a href="#" style="color:white;padding-left: 10px;">荐 无权       </a></li>
+          <li></li>
+         
+     </ul>
+     </div>
+     <div class="two">热门推荐</div>
+     <div class="three">
+     <div class="c4"><a target="_blank" href="#" class="pic"><img src="http://i.youzipi.net/mh/cover/2019/11/19/1235b732ab.jpg/420" alt="超神游戏" style="width:228px;height:155px;"/><li style="list-style:none;color:black;padding-left:80px;font-weight:bold;">超神游戏</li></a></div>
+     <div class="c4"><a target="_blank" href="#" class="pic"><img src="http://i.youzipi.net/mh/cover/2019/11/19/11267049c1.jpg/420" alt="我为苍生" style="width:228px;height:155px;"/><li style="list-style:none;color:black;padding-left:80px;font-weight:bold;">我为苍生</li></a></div>
+     <div class="c4"><a target="_blank" href="#" class="pic"><img src="http://i.youzipi.net/mh/cover/2020/01/06/05b8b7931e.jpg" alt="镇魂街" style="width:228px;height:155px;"/><li style="list-style:none;color:black;padding-left:80px;font-weight:bold;">镇魂街</li></a></div>
+     <div class="c4"><a target="_blank" href="#" class="pic"><img src="http://i.youzipi.net/mh/cover/2019/11/19/20cb251a63.jpg/420" alt="绝世武神" style="width:228px;height:155px;"/><li style="list-style:none;color:black;padding-left:80px;font-weight:bold;">绝世武神</li></a></div>
+     <div class="c4"><a target="_blank" href="#" class="pic"><img src="http://i.youzipi.net/mh/cover/2020/01/06/19fa3a5699.jpg" alt="我的太子妃" style="width:228px;height:155px;"/><li style="list-style:none;color:black;padding-left:80px;font-weight:bold;">我的太子妃</li></a></div>
+     <div class="c4"><a target="_blank" href="#" class="pic"><img src="http://i.youzipi.net/mh/cover/2019/11/19/12cfffe4ee.jpg/420" alt="超神游戏" style="width:228px;height:155px;"/><li style="list-style:none;color:black;padding-left:80px;font-weight:bold;">唐寅在异界</li></a></div>
+     <div class="c4"><a target="_blank" href="#" class="pic"><img src="http://i.youzipi.net/mh/cover/2019/11/19/2415c772b2.jpg/420" alt="超神游戏" style="width:228px;height:155px;"/><li style="list-style:none;color:black;padding-left:80px;font-weight:bold;">傲世九重天</li></a></div>
+     <div class="c4"><a target="_blank" href="#" class="pic"><img src="http://i.youzipi.net/mh/cover/2020/01/06/0343659dd2.jpg" alt="超神游戏" style="width:228px;height:155px;"/><li style="list-style:none;color:black;padding-left:80px;font-weight:bold;">雪国</li></a></div>
+       
+     </div>
+       <div class="four">
+      <h1>魔幻漫画排行</h1>
+
+      <ul class="five">
+                                <li style="list-style:none;"><span class="orange">1</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">键盘侠</a></li>
+                                <li style="list-style:none;"><span class="orange">2</span><a href="#/" style="color:#ff9a6a; text-decoration:none;
+   ">虫生</a></li>
+                                <li style="list-style:none;"><span class="orange">3</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">亡灵之王</a></li>
+                                <li style="list-style:none;"><span class="">4</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">蔚蓝战争</a></li>
+                                <li style="list-style:none;"><span class="">5</span><a href="#" style=" color:#ff9a6a;text-decoration:none;
+   ">鬼灯的冷彻</a></li>
+                                <li style="list-style:none;"><span class="">6</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">铁姬钢兵</a></li>
+                                <li style="list-style:none;"><span class="">7</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">造物法则</a></li>
+                                <li style="list-style:none;"><span class="">8</span><a href="/#/" style="color:#ff9a6a; text-decoration:none;
+   ">绅士魔王</a></li>
+                                <li style="list-style:none;"><span class="">9</span><a href="#" style=" color:#ff9a6a;text-decoration:none;
+   ">今天开始做女神</a></li>
+                                <li style="list-style:none;"><span class="">10</span><a href="#/" style="color:#ff9a6a; text-decoration:none;
+   ">活城</a></li>
+                                <li style="list-style:none;"><span class="">11</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">聊斋</a></li>
+                                <li style="list-style:none;"><span class="">12</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">王子的魔法主厨</a></li>
+                                <li style="list-style:none;"><span class="">13</span><a href="#/" style="color:#ff9a6a; text-decoration:none;
+   ">田螺姑娘</a></li>
+                                <li style="list-style:none;"><span class="">14</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">妹子与科学</a></li>
+                                <li style="list-style:none;"><span class="">15</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">非常契约</a></li>
+                          </ul>
+    </div>
+    <div class="six">
+      <h1>热血排行</h1>
+
+      <ul class="five">  
+                                <li style="list-style:none;"><span class="orange">1</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">玄皓战记</a></li>
+                                <li style="list-style:none;"><span class="orange">2</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">星武神诀</a></li>
+                                <li style="list-style:none;"> <span class="orange">3</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">雏蜂</a></li>
+                                <li style="list-style:none;"><span class="">4</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">斗罗大陆</a></li>
+                                <li style="list-style:none;"><span class="">5</span><a href="#" style=" color:#ff9a6a;text-decoration:none;
+   ">食色大陆</a></li>
+                                <li style="list-style:none;"><span class="">6</span><a href="#/" style="color:#ff9a6a; text-decoration:none;
+   ">大话降龙</a></li>
+                                <li style="list-style:none;"><span class="">7</span><a href="#" style=" color:#ff9a6a;text-decoration:none;
+   ">超神游戏</a></li>
+                                <li style="list-style:none;"><span class="">8</span><a href="#" style=" color:#ff9a6a;text-decoration:none;
+   ">假面替身</a></li>
+                                <li style="list-style:none;"><span class="">9</span><a href="#" style=" color:#ff9a6a;text-decoration:none;
+   ">镇魂街</a></li>
+                                <li style="list-style:none;"><span class="">10</span><a href="#" style="color:#ff9a6a;text-decoration:none;
+   ">噬规者</a></li>
+                                <li style="list-style:none;"><span class="">11</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">少年时代</a></li>
+                                <li style="list-style:none;"><span class="">12</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">麻神</a></li>
+                                <li style="list-style:none;"><span class="">13</span><a href="#" style=" color:#ff9a6a;text-decoration:none;
+   ">升龙道</a></li>
+                                <li style="list-style:none;"> <span class="">14</span><a href="#" style="color:#ff9a6a; text-decoration:none;
+   ">基因猎人</a></li>
+                                <li style="list-style:none;"><span class="">15</span><a href="#" style=" color:#ff9a6a;text-decoration:none;
+   ">崩坏3rd</a></li>
+                          </ul>
+    </div>
+    <div class="end">
+    <div class="end1">冀MXH12362 版权所有，并保留所有权利。</div>
+    <div class="end1">有效期2020-2026。此期间内，侵权必究。</div>
+      
+    </div>
+
+    </div>
+  </body>
+</html>
